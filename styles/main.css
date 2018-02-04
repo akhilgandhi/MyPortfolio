@@ -1515,16 +1515,16 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: #378C3F;
-  color: #FFFFFF;
+  background-color: #FFC107;
+  color: #000;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover,
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-  background-color: #40a249;
-  color: #FFFFFF;
+  background-color: #ffd54f;
+  color: #000;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -2830,11 +2830,11 @@ small {
 }
 
 a {
-  color: #378C3F;
+  color: #FFC107;
 }
 
 a:hover, a:focus {
-  color: #378C3F;
+  color: #FFC107;
 }
 
 h1, .h1 {
@@ -3402,7 +3402,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #378C3F !important;
+  background-color: #1976D2 !important;
 }
 
 .bg-info {
@@ -5612,13 +5612,13 @@ Created using IcoMoon - icomoon.io
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .sidebar-collapse .navbar-collapse:before {
-    background: #378C3F;
+    background: #1976D2;
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-    background: linear-gradient(#378C3F 0%, #000 80%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#1976D2), color-stop(80%, #BBDEFB));
+    background: linear-gradient(#1976D2 0%, #BBDEFB 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);

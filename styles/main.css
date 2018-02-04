@@ -2598,16 +2598,16 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(55, 140, 63, 0.4);
+  background: rgba(255, 213, 79, 0.6);
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #378C3F;
+  background: #FFC107;
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #378C3F;
+  color: #212121;
 }
 
 .progress-container.progress-info .progress {

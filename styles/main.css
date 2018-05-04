@@ -4425,8 +4425,10 @@ Created using IcoMoon - icomoon.io
   border-bottom: none;
   padding-top: 24px;
   padding-right: 24px;
-  padding-bottom: 0;
+  padding-bottom: 24px;
   padding-left: 24px;
+  background-color: #1976D2;
+  color: #fff;
 }
 
 .modal-content .modal-header button {

@@ -254,13 +254,28 @@
           <div class="modal-content">
             <!-- Modal Header -->
             <div class="modal-header">
-              <h5 class="modal-title" id="webModalLabel">What courses I am currently learning</h5>
+              <h5 class="modal-title" id="webModalLabel">What I am currently doing</h5>
             </div>
             <!-- Modal Body -->
             <div class="modal-body">
               <div>
-                Working as a developer for a project with the firm First Data. Currently assisgned to handle the authorization system for
-                authorizing checks for different consumer strores and merchants.
+                  <p>
+                      As the name implies the purpose of Authorization system is to authorize or decline checks and instruments which are processed similarly to checks. The business flow for check processing at a brick mortar establishment is that a merchant has a POS device which scans the check and transmits the MICR information to TELECHECK. Based on that information in the TELECHECK database the check is authorized or declined. If the check is approved and the merchant has part of their agreement that TELECHECK settle the check electronically and the check writer and the check writer's bank will accept to do so, otherwise the merchant will keep the check and deposits it. All the transactions are stored in the TELECHECK database as record of call.
+                      A simplified flow for Authorization system is the transactions come in to TELECHECK gateway by various means. TELECHECK gateways do some basic validations and sends it to auth system to do to Authorization that involves intensive risk assessments.
+                  </p>
+                  <ul>
+                      <li>
+                          Achievements – 
+                          <br />
+                          <p>
+                            <ul>
+                              <li>Developed a batch process to calculate all the risk variables present on a transaction and create an output file which later used by merchants to help in assessing the risks on future transactions</li>
+                              <li>Configured multiple gateways for different merchants which help first data to reach to many more merchant outlets.</li>
+                              <li>Monitored various successful deployments in production environment, and help solving various production bugs.</li>
+                            </ul>
+                          </p>
+                        </li>
+                  </ul>
               </div>
             </div>
             <!-- Modal Footer -->
@@ -270,6 +285,42 @@
           </div>
         </div>
       </div>
+      <!-- Web project modal-->
+      <div class="modal fade" id="webModal1" tabindex="-1" role="dialog" aria-labelledby="webModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h5 class="modal-title" id="webModalLabel">What I am currently doing</h5>
+              </div>
+              <!-- Modal Body -->
+              <div class="modal-body">
+                <div>
+                    <p>
+                        CITI BANK CAS is a system which is used by CITI BANK for back office administrative tasks as well as stores the consumer data for its treasury departments. Based on SOAP webservices architecture it is designed to serve data to multiple front-end applications. Basic flow for CAS includes user management, workflow management, group policy management, etc. 
+                    </p>
+                    <ul>
+                        <li>
+                            Achievements – 
+                            <br />
+                            <p>
+                              <ul>
+                                <li>Created multiple database scripts for configuring consumer centric email dispatching.</li>
+                                <li>Developed a spring framework-based release management module that shows the features in the upcoming release for the software.</li>
+                                <li>Help monitoring the production environment and managing the continuous development and integration for the software releases.</li>
+                              </ul>
+                            </p>
+                          </li>
+                    </ul>
+                </div>
+              </div>
+              <!-- Modal Footer -->
+              <div class="modal-footer">
+                <button class="btn btn-primary ml-auto" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       <div class="section" id="skill">
         <div class="container">
           <div class="h4 text-center mb-4 title">Professional Skills</div>
@@ -520,40 +571,21 @@
                     <li>
                       Description – 
                       <br />
-                      <br />
                       <p>
-                        As the name implies the purpose of Authorization system is to authorize or decline checks and instruments which are processed similarly to checks. The business flow for check processing at a brick mortar establishment is that a merchant has a POS device which scans the check and transmits the MICR information to TELECHECK. Based on that information in the TELECHECK database the check is authorized or declined. If the check is approved and the merchant has part of their agreement that TELECHECK settle the check electronically and the check writer and the check writer's bank will accept to do so, otherwise the merchant will keep the check and deposits it. All the transactions are stored in the TELECHECK database as record of call.
-                        A simplified flow for Authorization system is the transactions come in to TELECHECK gateway by various means. TELECHECK gateways do some basic validations and sends it to auth system to do to Authorization that involves intensive risk assessments.
+                        As the name implies the purpose of Authorization system is to authorize or decline checks and instruments which are processed similarly to checks. 
+                      </p>
+                      <p>
+                          <button class="btn btn-primary" data-toggle="modal" data-target="#webModal">Learn More...</button>
                       </p>
                     </li>
-                    <li>
-                      Achievements – 
-                      <br />
-                      <p>
-                        <ul>
-                          <li>Developed a batch process to calculate all the risk variables present on a transaction and create an output file which later used by merchants to help in assessing the risks on future transactions</li>
-                          <li>Configured multiple gateways for different merchants which help first data to reach to many more merchant outlets.</li>
-                          <li>Monitored various successful deployments in production environment, and help solving various production bugs.</li>
-                        </ul>
-                      </p>
-                    </li>
-                  </ul>
+                    </ul>
                   <p>PROJECT – CITI BANK CAS</p>
                   <ul>
-                    <li>
-                      Description – 
+                    <li>Description – 
                       <br />
-                      <p>CITI BANK CAS is a system which is used by CITI BANK for back office administrative tasks as well as stores the consumer data for its treasury departments. Based on SOAP webservices architecture it is designed to serve data to multiple front-end applications. Basic flow for CAS includes user management, workflow management, group policy management, etc. </p>
-                    </li>
-                    <li>
-                      Achievements – 
-                      <br />
+                      <p>CITI BANK CAS is a system which is used by CITI BANK for back office administrative tasks as well as stores the consumer data for its treasury departments. </p>
                       <p>
-                        <ul>
-                          <li>Created multiple database scripts for configuring consumer centric email dispatching.</li>
-                          <li>Developed a spring framework-based release management module that shows the features in the upcoming release for the software.</li>
-                          <li>Help monitoring the production environment and managing the continuous development and integration for the software releases.</li>
-                        </ul>
+                          <button class="btn btn-primary" data-toggle="modal" data-target="#webModal1">Learn More...</button>
                       </p>
                     </li>
                   </ul>
